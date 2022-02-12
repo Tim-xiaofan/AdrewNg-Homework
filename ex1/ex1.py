@@ -91,9 +91,6 @@ print('Running Gradient Descent ...')
 # run gradient descent
 theta, J_history = gradientDescent(X, y, theta, alpha, iterations)
 print('Theta found by gradient descent:', theta)
-theta = np.array([0, 0], dtype=np.double)
-# theta = gradientDescentMulti(X, y, theta, alpha, iterations)
-# print('Theta found by gradient descent multi:', theta)
 print('Expected theta values (approx): [-3.6303  1.1664]')
 
 plotData(data['population'], data['profit'])
