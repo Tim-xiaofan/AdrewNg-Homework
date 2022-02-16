@@ -18,6 +18,7 @@ from sigmoid import sigmoid
 from predict import predict
 import os
 
+
 def ex2_reg(grader):
     # Load Data
     # The first two columns contains the X values and the third column

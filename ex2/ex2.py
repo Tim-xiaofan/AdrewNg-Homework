@@ -24,7 +24,7 @@ grader = utils.Grader()
 #  The first two columns contains the exam scores and the third column
 #  contains the label.
 
-data = pd.read_csv('./data/ex2data1.txt', names=['Exam 1', 'Exam 2', 'Admitted'])
+data = pd.read_csv('./Data/ex2data1.txt', names=['Exam 1', 'Exam 2', 'Admitted'])
 # data.info()
 print('data, first 5 lines:\n', data.iloc[0:5, :])
 X, y = auxiliary.get_X_y(data)
